@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="0c3d487c-4a77-4c39-80f4-40b8f8d27396" name="MySQL - almacenitlafinal@db4free.net Mapping">
+      <data-sources db="aad6a654-cc98-4c2e-9a66-106b6917a026" ddl="1da7a960-a4a1-487b-880d-c7b1eef8cbca" />
+      <scope>
+        <node kind="schema" qname="almacenitlafinal" />
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="1da7a960-a4a1-487b-880d-c7b1eef8cbca" />
+          <option name="name" value="MySQL - almacenitlafinal@db4free.net (DDL)" />
+          <option name="languageId" value="MySQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/src/datamodel" />
+            </array>
+          </option>
+          <option name="scriptOptions">
+            <map>
+              <entry key="QualifyWithSchema" value="ALWAYS" />
+            </map>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
