@@ -14,7 +14,7 @@ public class MenuPrincipal {
             public void actionPerformed(ActionEvent e) {
                 menuFrame.dispose();
                 //
-                JFrame  frame = new JFrame("Login");
+                JFrame  frame = new JFrame("ITLA Stock");
                 Login.frame = frame;
                 frame.setContentPane(new Login().Main);
                 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

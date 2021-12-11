@@ -13,12 +13,14 @@ public class ListaDeUsuarios extends JDialog {
     private JButton nuevoButton;
     private JButton borrarButton;
 
+    // Aunque al final la implementacion usada es UsuariosCurd gracias a Polymorphismo podemos definirla como crubase
     CrudBase crud;
 
     public ListaDeUsuarios() {
         setContentPane(contentPane);
         setModal(true);
         crud = CrudBase.createCrudFor("usuarios");
+
         table_load();
 
         buttonCancel.addActionListener(new ActionListener() {
@@ -47,8 +49,8 @@ public class ListaDeUsuarios extends JDialog {
                 RegistroUsuario dialog = new RegistroUsuario();
                 dialog.pack();
                 dialog.setModal(true);
-                dialog.setVisible(true);
                 dialog.setAlwaysOnTop(true);
+                dialog.setVisible(true);
                 table_load();
             }
         });

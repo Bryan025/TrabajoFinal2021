@@ -79,7 +79,6 @@ public class RegistroUsuario extends JDialog {
         result.add(txtApellido.getText());
         result.add(txtTelefono.getText());
         result.add(txtEmail.getText());
-        result.add(txtUsuario.getText());
         result.add(passWord);
         return result;
     }
